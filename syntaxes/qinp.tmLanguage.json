@@ -55,8 +55,8 @@
 			"end": "$\\n",
 			"patterns": [
 				{
-					"name": "constant.character.escape.qinp",
-					"match": "\\\\."
+					"name": "markup.bold.qinp",
+					"match": "\\b(TODO|FIXME|NOTE|HACK)\\b"
 				}
 			]
 		},
