@@ -30,7 +30,7 @@
 				},
 				{
 					"name": "keyword.other.qinp",
-					"match": "\\b(__file__|__line__|asm|assembly|define|enum|extern|import|pack|union|space|static|null)\\b"
+					"match": "\\b(__file__|__line__|asm|assembly|const|define|enum|extern|import|pack|union|space|static|null)\\b"
 				}
 			]
 		},
