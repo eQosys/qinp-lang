@@ -26,11 +26,11 @@
 			"patterns": [
 				{
 					"name": "keyword.control.qinp",
-					"match": "\\b(break|continue|do|elif|else|if|pass|return|while|linux|windows|defer)\\b"
+					"match": "\\b(break|continue|defer|do|elif|else|if|pass|return|while|linux|windows)\\b"
 				},
 				{
 					"name": "keyword.other.qinp",
-					"match": "\\b(__file__|__line__|asm|assembly|const|define|enum|extern|import|pack|union|space|static|null)\\b"
+					"match": "\\b(__file__|__line__|asm|assembly|blueprint|const|define|enum|extern|import|pack|union|space|static|null)\\b"
 				}
 			]
 		},
