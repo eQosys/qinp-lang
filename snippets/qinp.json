@@ -1,0 +1,80 @@
+{
+	"Function Declaration": {
+		"prefix": [ "fn" ],
+		"body": [
+			"fn<${2:retType}> ${1:name}(${0})..."
+		]
+	},
+	"Function Definition": {
+		"prefix": [ "fn" ],
+		"body": [
+			"fn<${2:retType}> ${1:name}(${0}):",
+			"\tpass"
+		]
+	},
+	"Variable Declaration": {
+		"prefix": [ "var" ],
+		"body": [
+			"var<${1:type}> ${0:name}"
+		]
+	},
+	"Variable Definition": {
+		"prefix": [ "var" ],
+		"body": [
+			"var ${1:name} = ${0}"
+		]
+	},
+	"Constant Declaration": {
+		"prefix": [ "const" ],
+		"body": [
+			"const<${1:type}> ${0:name}"
+		]
+	},
+	"Constant Definition": {
+		"prefix": [ "const" ],
+		"body": [
+			"const ${1:name} = ${0}"
+		]
+	},
+	"If Statement": {
+		"prefix": [ "if" ],
+		"body": [
+			"if ${1:condition}:",
+			"\t${0:pass}"
+		]
+	},
+	"Elif Statement": {
+		"prefix": [ "elif" ],
+		"body": [
+			"elif ${1:condition}:",
+			"\t${0:pass}"
+		]
+	},
+	"Else Statement": {
+		"prefix": [ "else" ],
+		"body": [
+			"else:",
+			"\t${0:pass}"
+		]
+	},
+	"If-Else Statement": {
+		"prefix": [ "ifelse" ],
+		"body": [
+			"if ${1:condition}:",
+			"\t${2:pass}",
+			"else:",
+			"\t${0:pass}"
+		]
+	},
+	"If-Elif-Else Statement": {
+		"prefix": [ "ifelifelse" ],
+		"body": [
+			"if ${1:condition}:",
+			"\t${2:pass}",
+			"elif ${3:condition}:",
+			"\t${4:pass}",
+			"else:",
+			"\t${0:pass}"
+		]
+	}
+}
