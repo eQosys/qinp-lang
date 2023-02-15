@@ -1,7 +1,7 @@
 {
     "name": "qinp-lang",
     "displayName": "QINP Lang",
-    "description": "Syntax highlighting for QINP Lang",
+    "description": "Syntax highlighting and snippets for QINP",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.66.0"
@@ -20,6 +20,10 @@
             "language": "qinp",
             "scopeName": "source.qnp",
             "path": "./syntaxes/qinp.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "qinp",
+            "path": "./snippets/qinp.json"
         }]
     }
 }
