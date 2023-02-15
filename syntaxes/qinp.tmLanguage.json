@@ -64,7 +64,7 @@
 			"patterns": [
 				{
 					"name": "constant.numeric.qinp",
-					"match": "\\b([0-9]+)\\b"
+					"match": "\\b(0[xX][0-9a-fA-F]+|0[bB][01]+|[0-9]+)\\b"
 				},
 				{
 					"name": "constant.language.qinp",
