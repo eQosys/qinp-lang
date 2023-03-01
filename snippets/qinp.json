@@ -2,13 +2,13 @@
 	"Function Declaration": {
 		"prefix": [ "fn" ],
 		"body": [
-			"fn<${2:retType}> ${1:name}(${0})..."
+			"fn<${1:retType}> ${2:name}(${0})..."
 		]
 	},
 	"Function Definition": {
 		"prefix": [ "fn" ],
 		"body": [
-			"fn<${2:retType}> ${1:name}(${0}):",
+			"fn<${1:retType}> ${2:name}(${0}):",
 			"\tpass"
 		]
 	},
@@ -75,6 +75,27 @@
 			"\t${4:pass}",
 			"else:",
 			"\t${0:pass}"
+		]
+	},
+	"While Loop": {
+		"prefix": [ "while" ],
+		"body": [
+			"while ${1:condition}:",
+			"\t${0:pass}"
+		]
+	},
+	"Do-While Loop": {
+		"prefix": [ "do" ],
+		"body": [
+			"do:",
+			"\t${1:pass}",
+			"while ${0:condition}"
+		]
+	},
+	"Lambda": {
+		"prefix": [ "lambda" ],
+		"body": [
+			"lambda<${1:retType}>(${2}): ${0:pass};"
 		]
 	}
 }
