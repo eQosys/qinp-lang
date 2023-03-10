@@ -6,6 +6,11 @@
     "engines": {
         "vscode": "^1.66.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TecStylos/qinp-lang.git"
+    },
+    "publisher": "TecStylos",
     "categories": [
         "Programming Languages"
     ],
