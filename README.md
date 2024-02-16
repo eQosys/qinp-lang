@@ -1,6 +1,6 @@
 # QINP-LANG
 
-The QINP-LANG Extension provides syntax highlighting and snippets for the [QINP language](https://github.com/TecStylos/QINP).
+The QINP-LANG Extension provides syntax highlighting and snippets for the [QINP language](https://github.com/eQosys/QINP).
 
 ## Features
 
@@ -10,3 +10,5 @@ The QINP-LANG Extension provides syntax highlighting and snippets for the [QINP 
 ## Release Notes
  - 0.0.1
    - Initial release
+ - 0.0.3
+   - Added icon
